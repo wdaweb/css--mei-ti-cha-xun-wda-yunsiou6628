@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* #Taishan,
+#HTML,
+#CSS,
+#JavaScript,
+#jQuery,
+#Bootstrap,
+#Sass,
+#Vuejs {
+  position: relative;
+} */
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+/* 圖片上一層 div 範圍 - 設定置中 */
+.img{
+  text-align: center;
+  /* background: lightgreen; */
+}
+
+/* 圖片大小 */
+img {
+  max-width: 35%;
+}
+
+.content h2{
+  font-size: 1.5rem;
+}
+
+.content p{
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+hr{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* 泰山職訓  */
+#Taishan {
+  text-align: center;
+}
+
+#Taishan .content img {
+  max-width: 40%;
+}
+
+#Taishan .content h1{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+
+/* 尺寸 1200px 放大後樣式 */
+@media (min-width: 1200px) {
+  /* 
+  1.把沒有出現的內容 設定 display: none; 
+  2.會出現的一個一個去 設定 定位 & 加線條
+  */
+
+  /* 泰山職訓  */
+#Taishan {
+  text-align: center;
+}
+
+#Taishan .content img {
+  max-width: 20%;
+}
+
+#Taishan .content h1{
+  font-size: 2rem;
+  margin-bottom: 0.1rem;
+}
+
+
+img {
+  max-width: 15%;
+}
+
+.content h2{
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0.2rem;
+}
+
+hr{
+  display: none; 
+}
+
+  #HTML .content p{
+    display: none; 
+  }
+
+  #CSS .content p{
+    display: none; 
+  }
+
+  #JavaScript .content p{
+    display: none; 
+  }
+
+  #jQuery .content p{
+    display: none; 
+  }
+
+  #Bootstrap .content p{
+    display: none; 
+  }
+
+  #Sass .content p{
+    display: none; 
+  }
+
+  #Vuejs .content p{
+    display: none; 
+  }
+}
